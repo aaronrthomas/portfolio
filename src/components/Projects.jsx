@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
-import image1 from "/public/1.png";
-import image2 from "/public/2.png";
-import image3 from "/public/3.png";
-import image4 from "/public/4.png";
+import image1 from "/public/er.webp";
+import image2 from "/public/cp.webp";
+import image3 from "/public/cw.webp";
+import image4 from "/public/is.webp";
 import image5 from "/public/5.png";
 
 const projectsData = [

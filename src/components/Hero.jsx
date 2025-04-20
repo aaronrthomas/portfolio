@@ -1,4 +1,4 @@
-import image from "/public/DP.jpg";
+import image from "/public/DP.webp";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -38,17 +38,12 @@ const Hero = () => {
             Web Developer & Graphic Designer
           </h3>
           <p className="text-sm text-gray-300 md:text-base">
-            I am a passionate web developer and graphic designer with expertise
-            in creating dynamic and visually appealing web applications. I
-            specialize in using modern technologies like React, Tailwind CSS,
-            HTML, CSS, and Bootstrap to craft responsive and user-friendly
-            websites. Additionally, I have experience in backend development
-            with Python and Django, enabling me to build robust and scalable
-            applications. Beyond coding, I have a creative flair for graphic
-            design and enjoy bringing ideas to life through tools like Figma,
-            ensuring my designs are both functional and aesthetically pleasing.
-            With a blend of technical skills and artistic vision, I strive to
-            deliver exceptional digital experiences.
+          I’m a dedicated web developer and graphic designer with a passion for crafting dynamic, user-centric digital experiences. With a strong foundation in modern front-end technologies such as <b>React, Tailwind CSS, Bootstrap, HTML, and CSS,</b> I build responsive and visually engaging websites that perform seamlessly across devices.
+Complementing my front-end expertise, I also specialize in backend development using *Python* and *Django*, allowing me to create robust, scalable, and secure web applications from end to end.
+
+What sets me apart is my ability to blend technical precision with creative design. I bring ideas to life not only through code but also through compelling visuals, using tools like <b>Figma</b> to ensure that every interface is as intuitive as it is aesthetically pleasing.
+
+Whether you're a business looking to establish a strong online presence or need a custom web solution tailored to your goals, I’m here to help turn your vision into reality—with quality, reliability, and a keen eye detail.
           </p>
         </motion.div>
       </div>
