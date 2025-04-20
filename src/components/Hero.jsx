@@ -39,7 +39,6 @@ const Hero = () => {
           </h3>
           <p className="text-sm text-gray-300 md:text-base">
           I’m a dedicated web developer and graphic designer with a passion for crafting dynamic, user-centric digital experiences. With a strong foundation in modern front-end technologies such as <b>React, Tailwind CSS, Bootstrap, HTML, and CSS,</b> I build responsive and visually engaging websites that perform seamlessly across devices.
-Complementing my front-end expertise, I also specialize in backend development using *Python* and *Django*, allowing me to create robust, scalable, and secure web applications from end to end.
 
 What sets me apart is my ability to blend technical precision with creative design. I bring ideas to life not only through code but also through compelling visuals, using tools like <b>Figma</b> to ensure that every interface is as intuitive as it is aesthetically pleasing.
 
