@@ -17,7 +17,7 @@ const Navbar = () => {
     { Icon: BsLinkedin, url: "https://linkedin.com/in/https://www.linkedin.com/in/aaron-r-thomas-ba311931a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { Icon: BsWhatsapp, url: "https://wa.me/7034670789" },
     { Icon: BsInstagram, url: "https://www.instagram.com/aa.r.on_?igsh=MWh1b2YxYmRjeHZhaw==" },
-    { Icon: BsGithub, url: "https://github.com/your-username" },
+    { Icon: BsGithub, url: "https://github.com/aaronrthomas" },
   ];
 
   return (

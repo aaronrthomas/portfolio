@@ -4,38 +4,43 @@ import image1 from "/public/er.webp";
 import image2 from "/public/cp.webp";
 import image3 from "/public/cw.webp";
 import image4 from "/public/is.webp";
-import image5 from "/public/5.png";
+import image5 from "/public/ei.webp";
 
 const projectsData = [
   {
     image: image1,
-    title: "Habit Tracker",
-    description: "An app to track and manage daily habits efficiently.",
-    technologies: ["HTML", "CSS", "JavaScript", "MySQL"],
+    title: "Electronic Repairing",
+    description: "A web platform for managing electronic repair services, tracking repair orders, and maintaining customer service records.",
+    technologies: ["NEXT", "CSS", "JavaScript", "MySQL","React"],
+    link: "https://electronic-technicians.vercel.app/"
   },
   {
     image: image2,
-    title: "Todo App",
-    description: "A feature-rich task management application.",
+    title: "College Canteen Website",
+    description: "A web application for managing college canteen services, including menu management and order tracking.",
     technologies: ["TypeScript", "Next.js", "Tailwind", "PostgreSQL"],
+    link: "https://v0-new-project-ggu3ohmnnzi-szly5q.vercel.app/"
   },
   {
     image: image3,
-    title: "Social Media App",
-    description: "A platform for users to share updates and connect.",
+    title: "Crowd Management System",
+    description: "A web application for managing crowd control and safety measures at events.",
     technologies: ["TypeScript", "React", "Tailwind", "Supabase"],
+    link: "https://crowd-management-system.vercel.app/"
   },
   {
     image: image4,
-    title: "Restaurant Website",
-    description: "An interactive website for a restaurant business.",
+    title: "Inspiration Station",
+    description: "A web application for sharing and discovering inspirational content.",
     technologies: ["HTML", "CSS", "JavaScript", "MySQL"],
+    link: "https://canteenapp.vercel.app/"
   },
   {
     image: image5,
-    title: "Admin Dashboard",
-    description: "A dashboard to manage and monitor admin operations.",
+    title: "Emotional Intelligence",
+    description: "A web application for assessing and improving emotional intelligence.",
     technologies: ["HTML", "CSS", "JavaScript", "MySQL"],
+    link: "https://emotional-intelligence-xi.vercel.app/"
   },
 ];
 
@@ -61,11 +66,13 @@ const ProjectCard = ({ project }) => (
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }}
     >
-      <img
-        src={project.image}
-        alt={project.title}
-        className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]"
-      />
+      <a href={project.link} target="_blank" rel="noopener noreferrer">
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]"
+        />
+      </a>
       <div className="flex flex-col gap-5">
         <div className="flex flex-col gap-3">
           <h3 className="text-xl font-semibold">{project.title}</h3>
@@ -92,6 +99,7 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
+    link: PropTypes.string.isRequired,
   }).isRequired,
 };
 
